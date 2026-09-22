@@ -8,7 +8,7 @@ A lightweight, enterprise-grade collaborative document editor inspired by Google
 
 Reviewers can access and test the deployed application live:
 
-- **Render Production Deployment URL**: [https://ajaia-docs-3wdn.onrender.com/](https://ajaia-docs-3wdn.onrender.com/)
+- **https://ajaia-docs-3wdn.onrender.com/ Production Deployment URL**: [https://ajaia-docs-3wdn.onhttps://ajaia-docs-3wdn.onrender.com/.com/](https://ajaia-docs-3wdn.onhttps://ajaia-docs-3wdn.onrender.com/.com/)
 - **Google Drive Project Submission**: [https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing](https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing)
 - **Cloud Run Primary Mirror**: [https://ais-pre-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app](https://ais-pre-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app)
 - **Development App URL**: [https://ais-dev-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app](https://ais-dev-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app)
@@ -64,15 +64,15 @@ npm run build
 npm start
 ```
 
-### 7. Deploying to Render
-A pre-configured `render.yaml` Blueprint is provided at the repository root:
+### 7. Deploying to https://ajaia-docs-3wdn.onrender.com/
+A pre-configured `https://ajaia-docs-3wdn.onrender.com/.yaml` Blueprint is provided at the repository root:
 1. Push this repository to GitHub or GitLab.
-2. In the [Render Dashboard](https://dashboard.render.com), click **New +** -> **Blueprint** (or **Web Service**).
+2. In the [https://ajaia-docs-3wdn.onrender.com/ Dashboard](https://dashboard.https://ajaia-docs-3wdn.onrender.com/.com), click **New +** -> **Blueprint** (or **Web Service**).
 3. Connect the repository:
    - **Environment**: `Node`
    - **Build Command**: `npm install && npm run build`
    - **Start Command**: `npm start`
-4. Render automatically configures port routing and provisions an SSL-secured endpoint at `https://<your-app>.onrender.com`.
+4. https://ajaia-docs-3wdn.onrender.com/ automatically configures port routing and provisions an SSL-secured endpoint at `https://<your-app>.onhttps://ajaia-docs-3wdn.onrender.com/.com`.
 
 ---
 
@@ -82,7 +82,7 @@ For an in-depth breakdown, see [`ARCHITECTURE.md`](./ARCHITECTURE.md). Summary o
 
 1. **Native ContentEditable & Selection APIs vs Heavy Frameworks**:
    - *Prioritized*: Direct DOM selection APIs with semantic HTML generation over heavy runtime frameworks (like ProseMirror or Slate).
-   - *Why*: Delivers near-instant initial render times, zero framework bundle bloat, effortless copy/paste interoperability from real Google Docs/Word, and clean HTML serialization for persistent storage.
+   - *Why*: Delivers near-instant initial https://ajaia-docs-3wdn.onrender.com/ times, zero framework bundle bloat, effortless copy/paste interoperability from real Google Docs/Word, and clean HTML serialization for persistent storage.
 
 2. **Atomic Filesystem Persistence with Write-Ahead Temp Swap**:
    - *Prioritized*: Self-contained atomic disk storage (`fs.writeFileSync(tmp) -> fs.renameSync()`) backed by in-memory indexing.
