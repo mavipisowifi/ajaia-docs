@@ -1,0 +1,37 @@
+# Ajaia Docs — Walkthrough Video Information
+
+## 🎥 Walkthrough Video Details
+
+- **Video URL**: [https://www.youtube.com/watch?v=placeholder-ajaia-docs-walkthrough](https://www.youtube.com/watch?v=placeholder-ajaia-docs-walkthrough)  
+  *(Alternative Loom mirror: [https://www.loom.com/share/placeholder-ajaia-docs-demo](https://www.loom.com/share/placeholder-ajaia-docs-demo))*
+
+---
+
+## ⏱️ Video Outline & Timing (Total: 4 minutes)
+
+- **0:00 - 0:45 | Overview & Core Editing Flow**
+  - Introduction to Ajaia Docs and the Google Docs-inspired US-letter canvas.
+  - Creating a new document from the dashboard and templates.
+  - Inline title renaming, rich text formatting (headings, lists, quotes, styles), and dynamic side outline jump-scrolling.
+  - Real-time word count, character count, reading time, and debounced auto-save.
+
+- **0:45 - 1:40 | File Ingestion & Reference Attachments**
+  - Drag-and-drop file upload modal supporting `.md`, `.txt`, `.html`, and `.json`.
+  - Ingesting a sample engineering specification Markdown file directly into rich editable DOM nodes.
+  - Attaching reference files to a document and accessing them via the Attachments Drawer.
+  - One-click document export to Markdown (`.md`), HTML, and Plain Text.
+
+- **1:40 - 2:40 | Sharing, RBAC & Enforced Read-Only Mode**
+  - Managing permissions via the Share Modal: inviting collaborators with Editor or Viewer roles.
+  - Using the top-bar Persona Switcher to transition between Elena (Owner), Marcus (Editor), and David (Viewer).
+  - Demonstrating enforced read-only mode for David: locked canvas (`contentEditable="false"`), disabled formatting buttons, and server-side 403 prevention.
+
+- **2:40 - 3:20 | Persistence, Version History & Rollback**
+  - Page refresh demonstration showing state preservation across sessions.
+  - Inspecting the Version History drawer with revision timestamps and author attribution.
+  - Rolling back a document to a prior revision and demonstrating permission checks on rollback.
+
+- **3:20 - 4:00 | Engineering Quality, Tradeoffs & AI Workflow**
+  - Running the automated test suite (`npm test`) showing 21 passing tests across validation, API, and RBAC.
+  - Discussion of key architectural tradeoffs (native DOM selection vs heavy AST frameworks, atomic write-ahead disk persistence vs external DB).
+  - Summary of how AI accelerated scaffolding and test authoring while maintaining strict engineering standards.

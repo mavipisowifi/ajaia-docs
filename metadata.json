@@ -1,0 +1,7 @@
+{
+  "name": "Ajaia Docs",
+  "description": "A lightweight collaborative document editor with rich-text formatting, file imports and attachments, document sharing permissions, and full-stack persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

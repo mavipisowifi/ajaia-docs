@@ -1,0 +1,9 @@
+CUSTOMER DISCOVERY NOTES - ENTERPRISE WORKFLOWS
+Date: September 2026
+Participants: Product Engineering Leads
+
+Summary of Key Findings:
+- Document editors must load instantly without heavy splash screens.
+- Team members need to see immediately if they are in View-Only or Editing mode.
+- Fast export to Markdown and HTML is an essential daily workflow.
+- File attachment support keeps all context within the document workspace.
