@@ -8,7 +8,7 @@ A lightweight, enterprise-grade collaborative document editor inspired by Google
 
 Reviewers can access and test the deployed application live:
 
-- **Render Production Deployment URL**: [https://ajaia-docs.onrender.com](https://ajaia-docs.onrender.com)
+- **Render Production Deployment URL**: [https://ajaia-docs-3wdn.onrender.com/](https://ajaia-docs-3wdn.onrender.com/)
 - **Google Drive Project Submission**: [https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing](https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing)
 - **Cloud Run Primary Mirror**: [https://ais-pre-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app](https://ais-pre-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app)
 - **Development App URL**: [https://ais-dev-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app](https://ais-dev-npveal477sv22bczhih6gf-446656988501.asia-southeast1.run.app)
