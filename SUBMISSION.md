@@ -5,7 +5,7 @@
 **Timebox**: 4–6 Hours  
 **Date**: September 2026  
 **Google Drive Project Submission**: [https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing](https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing)  
-**Render Production Deployment**: [https://ajaia-docs.onrender.com](https://ajaia-docs.onrender.com)  
+**Render Production Deployment**: [https://ajaia-docs-3wdn.onrender.com](https://ajaia-docs-3wdn.onrender.com)  
 
 ---
 
@@ -43,7 +43,7 @@ All required deliverables have been generated and committed to the workspace:
 
 Reviewers can inspect and test the live application directly:
 
-- **Live Production Deployment URL**: [https://ajaia-docs.onrender.com](https://ajaia-docs.onrender.com)
+- **Live Production Deployment URL**: [https://ajaia-docs-3wdn.onrender.com](https://ajaia-docs-3wdn.onrender.com)
 - **Google Drive Project Submission Folder**: [https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing](https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing)
 
 *No database installation, credentials, or paid third-party API keys are required to evaluate the live product.*
