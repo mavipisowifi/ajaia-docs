@@ -28,7 +28,7 @@ All required deliverables have been generated and committed to the workspace:
 | Item | File / Location | Description |
 | :--- | :--- | :--- |
 | **Google Drive Submission Folder** | [Google Drive Folder](https://drive.google.com/drive/folders/1_pcUaHRLBD_a5Bym1wjuGCaJcp8E26fT?usp=sharing) | Folder containing code archive, documentation, tests, and submission package. |
-| **Render Live Deployment** | [https://ajaia-docs.onrender.com](https://ajaia-docs.onrender.com) | Live production application hosted on Render. |
+| **Render Live Deployment** | [https://ajaia-docs-3wdn.onrender.com) | Live production application hosted on Render. |
 | **Source Code** | `/src`, `/server.ts` | Clean, modular TypeScript frontend (React 18 + Tailwind) and backend (Express). |
 | **Setup & Run Instructions** | [`README.md`](./README.md) | Step-by-step local installation, running, testing, and production commands. |
 | **Architecture Decision Record** | [`ARCHITECTURE.md`](./ARCHITECTURE.md) | Technical decisions, rationale, prioritized features, trade-offs, and system diagram. |
